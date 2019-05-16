@@ -1,0 +1,64 @@
+h1{
+
+text-align: left;
+ color: green;
+}
+
+div {
+background-color: gray;
+margin-left: 0px}
+p.big{
+text-align: center;
+font-size: 1.8em;>
+}
+
+p.little{ text-align: center;
+font-size: 1.5em;>
+}
+
+
+
+
+/* img {
+  margin: 0 40%;
+} */
+
+
+h1{
+  background-color: silver;
+  margin-left: 3px}
+nav {
+background-color: grey;
+padding:  10px 30% 10px 10px;
+display: flex;
+justify-content: space-between;
+}
+.about-box {
+  display: flex;
+  border: 2px solid black;
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+div.left-side {
+  width: 50%;
+  border: 2px solid black;
+}
+
+.about-photo {
+  display: block;
+  margin: 0 auto;
+}
+.about-photo {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-label {
+  text-align: center; 
+}
