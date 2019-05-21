@@ -4,9 +4,9 @@ text-align: left;
  color: green;
 }
 
-div {
+/* div {
 background-color: gray;
-margin-left: 0px}
+margin-left: 0px} */
 p.big{
 text-align: center;
 font-size: 1.8em;>
@@ -15,8 +15,6 @@ font-size: 1.8em;>
 p.little{ text-align: center;
 font-size: 1.5em;>
 }
-
-
 
 
 /* img {
@@ -49,6 +47,7 @@ div.left-side {
 .about-photo {
   display: block;
   margin: 0 auto;
+  border: 6px solid black;
 }
 .about-photo {
   display: block;
@@ -60,5 +59,35 @@ div.left-side {
 }
 
 .about-label {
-  text-align: center; 
+  text-align: center;
+}
+
+
+
+.product {
+width: 400px;
+border: 2px solid blue;
+margin: 10px 5px 10px 20px;
+}
+
+.product-photo {
+  display: block;
+  margin: auto;
+
+}
+
+.product-title{
+  text-align: center;
+
+}
+.product-text{
+  text-align: center;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url("for site.gif");
+  background-repeat:
 }
