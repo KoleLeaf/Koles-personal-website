@@ -83,11 +83,15 @@ margin: 10px 5px 10px 20px;
 .product-text{
   text-align: center;
 }
-
-.products-container{
+ .products-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-image: url("for site.gif");
+  background-image: url("https://giphy.com/gifs/universe-spiral-galaxy-star-cluster-vortex-konczakowski-3og0IFrHkIglEOg8Ba");
   background-repeat:
+}
+.galaxy{
+display: block;
+margin: 0 auto;
+align: center;
 }
