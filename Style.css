@@ -9,11 +9,11 @@ background-color: gray;
 margin-left: 0px} */
 p.big{
 text-align: center;
-font-size: 1.8em;>
+font-size: 1em;>
 }
 
 p.little{ text-align: center;
-font-size: 1.5em;>
+font-size: 1em;>
 }
 
 
@@ -24,13 +24,29 @@ font-size: 1.5em;>
 
 h1{
   background-color: silver;
-  margin-left: 3px}
+  margin: 0 0 0 0;
+
+}
+
+a {
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+}
+
 nav {
 background-color: grey;
-padding:  10px 30% 10px 10px;
+padding:  10px 0% 10px 10px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 }
+
+.nav-button {
+  background-color: purple;
+  height: 30px;
+  border-radius: 30%;
+}
+
 .about-box {
   display: flex;
   border: 2px solid black;
@@ -49,10 +65,7 @@ div.left-side {
   margin: 0 auto;
   border: 6px solid black;
 }
-.about-photo {
-  display: block;
-  margin: 0 auto;
-}
+
 
 .about-title {
   text-align: center;
@@ -82,13 +95,11 @@ margin: 10px 5px 10px 20px;
 }
 .product-text{
   text-align: center;
+  color: green
 }
  .products-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-image: url("https://giphy.com/gifs/universe-spiral-galaxy-star-cluster-vortex-konczakowski-3og0IFrHkIglEOg8Ba");
-  background-repeat:
+   text-align: center;
+  color: white;
 }
 .galaxy{
 display: block;
@@ -98,10 +109,22 @@ align: center;
 .welcome {
   text-align: center;
 }
-.Welcome {
-text-align: center;
-color: blue;
 
-.background {
+.homepage-container {
+  background-image: url("./Photos/black back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;;
+}
 
+.abouthome {
+  text-align: center;
+  color: green
+}
+
+.Chatwelcome {
+  text-align: center;
+  color: blue;
+  font-size: 1.3em;
+  background-color: gray
 }
