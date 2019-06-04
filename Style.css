@@ -35,7 +35,7 @@ a {
 }
 
 nav {
-background-color: grey;
+background-color: black;
 padding:  10px 0% 10px 10px;
 display: flex;
 justify-content: space-around;
@@ -44,7 +44,7 @@ justify-content: space-around;
 .nav-button {
   background-color: purple;
   height: 30px;
-  border-radius: 30%;
+  border-radius: 15%;
 }
 
 .about-box {
@@ -108,6 +108,7 @@ align: center;
 }
 .welcome {
   text-align: center;
+  background-color: black:
 }
 
 .homepage-container {
@@ -124,7 +125,20 @@ align: center;
 
 .Chatwelcome {
   text-align: center;
-  color: blue;
+  color: green;
   font-size: 1.3em;
-  background-color: gray
+  background-color: gray:
 }
+
+
+.about-us {
+  text-align: center;
+  color: green
+}
+
+.welcome {
+  text-align: left;
+  background-color: black;
+  color: green;
+  text-align: center;
+  font-size: 1.3em;
